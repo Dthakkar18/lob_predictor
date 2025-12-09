@@ -13,3 +13,10 @@ Goal: Predict short-term mid-price movements (up / down / flat) from limit order
 - `src/eval/`        – evaluation & backtesting scripts
 - `configs/`         – YAML configs for experiments
 - `scripts/`         – helper shell scripts to run pipelines
+
+## Steps
+
+- downloaded raw data
+- created script to clean and store raw data
+- created a notebook to check the cleaned data
+- create script to load clean data, create labeled sequences, and save train/val/test datasets 
